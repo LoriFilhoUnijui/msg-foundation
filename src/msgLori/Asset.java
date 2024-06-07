@@ -36,7 +36,7 @@ abstract class Asset
 
 	while (!found && !done)
 	{
-	  System.out.println ("Enter the number of the " + getClass ().getName () +
+	  System.out.println ("Please enter the number of " + getClass ().getName () 
 	                      " to be deleted (12 digits): ");
 
           input = UserInterface.getString();
